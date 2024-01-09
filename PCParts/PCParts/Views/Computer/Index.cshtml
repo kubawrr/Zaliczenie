@@ -1,0 +1,69 @@
+﻿@model List<Computer>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h1 style="display: flex; justify-content: center; color: blue;">Lista Komputerow</h1>
+<div class="tb-pc">
+        <div class="titles" style="display:flex; justify-content: space-around; background-color: darkseagreen;">
+        <p>Name</p>
+        <p>CPU</p>
+        <p>GPU</p>
+        <p>Manufacturer</p>
+        </div>
+    @foreach(var pc in @Model)
+    {
+        <div class="pcs" style="display: flex; justify-content: space-around; background-color: #dddcd7;">
+            <p>@pc.Name</p>
+            <p>@pc.Cpu</p>
+            <p>@pc.Gpu</p>
+            <p>@pc.Manufacturer</p>
+        </div>
+        <div style="display: flex; gap: 10px;">
+            <a class="btn btn-primary"
+               asp-action="Edit"
+               asp-controller="Computer"
+               asp-route-id="@pc.Id">Edytuj</a>
+            <a class="btn btn-primary"
+               asp-action="Details"
+               asp-controller="Computer"
+               asp-route-id="@pc.Id">Szczegoly</a>
+            <a class="btn btn-primary"
+               asp-action="Delete"
+               asp-controller="Computer"
+               asp-route-id="@pc.Id">Usun</a>
+        </div>
+        /*
+        <tr style="color: green">
+        <td >
+        @pc.Name
+        </td>
+        <td >
+        @pc.Cpu
+        </td>
+        <td>
+        @pc.Gpu
+        </td>
+        <td >
+        @pc.Manufacturer
+        </td >
+        <td>
+        <a class="btn btn-primary"
+        asp-action="Edit"
+        asp-controller="Computer"
+        asp-route-id="@pc.Id">Edytuj</a>
+        <a class="btn btn-primary"
+        asp-action="Details"
+        asp-controller="Computer"
+        asp-route-id="@pc.Id">Szczegoly</a>
+        <a class="btn btn-primary"
+        asp-action="Delete"
+        asp-controller="Computer"
+        asp-route-id="@pc.Id">Usun</a>
+        </td>
+        </tr>
+
+        */
+    }
+</div>
