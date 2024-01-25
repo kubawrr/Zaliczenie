@@ -10,5 +10,5 @@ Po zalogowaniu na ekranie pojawi się widok ukazujący wszystkie wcześniej doda
 Aby dodać kolejny zestaw należy przenieść się na sekcje "Computer Forms" na której ukaże się poniższy formularz, który należy wypełnić.
 ![alt text](https://i.imgur.com/sRUklNe.png)
 ## API
-Aby móc korzystać z API wyświetlającego wszystkie firmy z danego kraju należy użyć endpointu /api/organizationapi/computer?country=Poland
+Aby móc korzystać z API wyświetlającego wszystkie firmy z danego kraju należy użyć endpointu /api/organizationapi/computer?country=Poland (w miejsce Poland można wstawić dowolny kraj)
 
