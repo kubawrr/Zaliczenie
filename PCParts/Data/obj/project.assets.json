@@ -2703,11 +2703,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\Project\\PCParts\\Data\\Data.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\Zaliczenie\\PCParts\\Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "C:\\Users\\user\\Desktop\\Project\\PCParts\\Data\\Data.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\Zaliczenie\\PCParts\\Data\\Data.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\Project\\PCParts\\Data\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\Zaliczenie\\PCParts\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

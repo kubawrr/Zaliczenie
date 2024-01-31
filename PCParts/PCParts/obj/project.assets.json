@@ -11487,11 +11487,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\Project\\PCParts\\PCParts\\PCParts.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\Zaliczenie\\PCParts\\PCParts\\PCParts.csproj",
       "projectName": "PCParts",
-      "projectPath": "C:\\Users\\user\\Desktop\\Project\\PCParts\\PCParts\\PCParts.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\Zaliczenie\\PCParts\\PCParts\\PCParts.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\Project\\PCParts\\PCParts\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\Zaliczenie\\PCParts\\PCParts\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -11508,8 +11508,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\user\\Desktop\\Project\\PCParts\\Data\\Data.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\Project\\PCParts\\Data\\Data.csproj"
+            "C:\\Users\\user\\Desktop\\Zaliczenie\\PCParts\\Data\\Data.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\Zaliczenie\\PCParts\\Data\\Data.csproj"
             }
           }
         }

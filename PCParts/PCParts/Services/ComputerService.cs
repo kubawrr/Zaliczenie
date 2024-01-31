@@ -27,6 +27,7 @@ namespace PCParts.Services
             if (find != null)
             {
                 _context.Computers.Remove(find);
+                _context.SaveChanges();
             }
         }
 

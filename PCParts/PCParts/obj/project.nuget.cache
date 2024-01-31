@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZfQTbBuJkg49xxWx75+ZEj9eOTMCu9yu0xOeDyDdgAcmD71s9MnxwNlWsLH2vnAQNynFicuYSYxnBncluhhXlg==",
+  "dgSpecHash": "I1EiFW7q1oPH1qd++IVpYr93tkerZUlWGtyn5jqIMICIy9vtvASsh4niSKP9OEqqf9zfrfhQx2OCyUHtVGJkug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\Project\\PCParts\\PCParts\\PCParts.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\Zaliczenie\\PCParts\\PCParts\\PCParts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

@@ -13,7 +13,8 @@ builder.Services.AddDbContext<Data.AppDbContext>();
 builder.Services.AddDefaultIdentity<IdentityUser>()
     .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<Data.AppDbContext>();
-builder.Services.AddTransient<IComputerService, ComputerService>();
+builder.Services.AddScoped<IComputerService, ComputerService>();
+//builder.Services.AddSingleton<IComputerService, ComputerService>();
 builder.Services.AddMemoryCache();
 builder.Services.AddSession();
 
